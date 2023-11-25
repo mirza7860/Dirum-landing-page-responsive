@@ -1,0 +1,76 @@
+.showcaseCard {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.showcaseCard .img {
+  position: relative;
+}
+
+.showcaseCard img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.showcaseCard .wishlist {
+  position: absolute;
+  background-color: rgb(256, 256, 256);
+  border-radius: 50%;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
+.wishlist  svg{
+   padding: 0.8px;
+   transform: scale(1.4);
+}
+.cart{
+    display: flex;
+    background-color: rgb(217, 214, 211);
+    gap: 8px;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+.cart svg{
+    padding: 0.8px;
+    transform: scale(1.4);
+}
+.showcaseCard .cart{
+  position: absolute;
+  bottom:16px;
+  right:10px;
+}
+
+.showcaseCard .cart p {
+  color: black;
+}
+
+.showcaseCard  h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: rgb(186, 165, 42);
+  font-weight: 800;
+}
+
+.showcaseCard  h4 {
+  font-size: 18px;
+  font-weight: 200;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.showcaseCard h3 {
+  font-size: 24px;
+  color: #000000; 
+  margin-top: 8px;
+}
+

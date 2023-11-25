@@ -1,0 +1,22 @@
+.artworklists-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.artworklists-container > div {
+  flex: 0 0 calc(25% - 160px);
+  padding: 16px;
+}
+
+@media (max-width: 1260px) {
+  .artworklists-container > div {
+    flex: 0 0 calc(25% - 20px); 
+  }
+}
+@media (max-width: 600px) {
+  .artworklists-container > div {
+    margin: 16px;
+    flex: 0 0 calc(50% - 32px); 
+  }
+}

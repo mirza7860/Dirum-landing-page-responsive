@@ -1,0 +1,36 @@
+/* Features.css */
+
+.feature {
+  display: flex;
+  justify-content: space-around;
+}
+
+.child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  margin: 8px;
+  padding: 8px;
+}
+
+.child img {
+  width: 80px;
+  height: auto;
+}
+
+.desc {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+ .child{
+    flex-direction: column;
+ }
+}
+@media screen and (max-width:496px) {
+  .child:nth-child(3){
+    display: none;
+  }
+}
